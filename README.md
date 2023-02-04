@@ -2,7 +2,7 @@
 
 Laravel Resourceable allows you to set a clear relationship between an Eloquent Model and its associated Resource(s): **a Model owns its Resources**.
 
-As of Laravel 9.5, this is still not obvious. There is indeed a default path to store the main Model's Resource, but you still need to do things like `new UserResource($user)`. That is, you're just creating an instance of a certain resource, and passing the model as an argument. You can even pass some other type of Model, or even something that's not an Elqouent Model (within reason) and everything will work.
+As of Laravel 9.5, this is still not obvious. There is indeed a default path to store the main Model's Resource, but you still need to do things like `new UserResource($user)`. That is, you're just creating an instance of a certain resource, and passing the model as an argument. You can even pass some other type of Model, or even something that's not an Eloquent Model (within reason) and everything will work.
 
 With this package, we make the relation explicit and change the code to reflect that a JsonResource of a Model belongs to that Model, not the other way around.
 
