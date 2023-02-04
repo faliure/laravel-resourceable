@@ -10,7 +10,7 @@ With this package, we make the relation explicit and change the code to reflect 
 
 ## Usage
 
-Use the HasResources trait and implement the Resourceable interface in your Models.
+Use the `HasResources` trait and implement the `Resourceable` interface in your Models.
 ```php
 # App\Models\User
 
@@ -31,7 +31,7 @@ $user = User::first();
 $resource = new UserResource($user);
 
 // With Resourceables
-$resource $user->resource();
+$resource = $user->resource();
 ```
 
 Get all of the model's resources:
