@@ -1,0 +1,21 @@
+{
+    "name": "faliure/laravel-resourceable",
+    "description": "Access a Model's underlying Resources from the Model itself",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faliure\\Resourceable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diego Barreiro Indart",
+            "email": "diego.bindart@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "faliure/laravel-custom-builder": "^1.0"
+    }
+}
