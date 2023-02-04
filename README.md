@@ -64,7 +64,7 @@ By default, Resourceable assumes your main Model JsonResource follows the standa
 
 - User's main Resource is `App\Http\Resources\UserModel`
 
-If that's not the case, you may define a property `resourceClass` in your Resourceable Modelm, like so:
+If that's not the case, you may define a property `resourceClass` in your Resourceable Modem, like so:
 
 ```php
 class User implements Resourceable
