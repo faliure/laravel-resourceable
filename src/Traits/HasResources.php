@@ -57,7 +57,7 @@ trait HasResources
                 fn ($models) => $resourceClass::collection($models),
                 Builder::GET
             )->setCallback(
-                fn ($model) => $model->resource(),
+                fn ($model) => $model?->resource(),
                 Builder::FIRST
             );
     }
